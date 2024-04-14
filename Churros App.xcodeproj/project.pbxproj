@@ -11,6 +11,15 @@
 		1F37034A2BBE56220076BB76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703492BBE56220076BB76 /* ContentView.swift */; };
 		1F37034C2BBE56230076BB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F37034B2BBE56230076BB76 /* Assets.xcassets */; };
 		1F37034F2BBE56230076BB76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F37034E2BBE56230076BB76 /* Preview Assets.xcassets */; };
+		1F3703572BBE56900076BB76 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703562BBE56900076BB76 /* Home.swift */; };
+		1F37035A2BBE596C0076BB76 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703592BBE596C0076BB76 /* CategoryModel.swift */; };
+		1F37035D2BBE632E0076BB76 /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37035C2BBE632E0076BB76 /* CategoryListView.swift */; };
+		1F37035F2BBE66EA0076BB76 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37035E2BBE66EA0076BB76 /* ProductModel.swift */; };
+		1F3703612BBEE3690076BB76 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703602BBEE3690076BB76 /* ProductCard.swift */; };
+		1F3703642BBEE9D30076BB76 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703632BBEE9D30076BB76 /* CollectionView.swift */; };
+		1F3703662BBEEA020076BB76 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703652BBEEA020076BB76 /* Header.swift */; };
+		1F3703692BBEEFAF0076BB76 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3703682BBEEFAF0076BB76 /* CartView.swift */; };
+		1F37036B2BBF08490076BB76 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37036A2BBF08490076BB76 /* CartManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		1F3703492BBE56220076BB76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F37034B2BBE56230076BB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F37034E2BBE56230076BB76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F3703562BBE56900076BB76 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1F3703592BBE596C0076BB76 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		1F37035C2BBE632E0076BB76 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		1F37035E2BBE66EA0076BB76 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		1F3703602BBEE3690076BB76 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		1F3703632BBEE9D30076BB76 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		1F3703652BBEEA020076BB76 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1F3703682BBEEFAF0076BB76 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		1F37036A2BBF08490076BB76 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,14 @@
 		1F3703462BBE56220076BB76 /* Churros App */ = {
 			isa = PBXGroup;
 			children = (
-				1F3703472BBE56220076BB76 /* Churros_AppApp.swift */,
+				1F3703582BBE58DC0076BB76 /* Model */,
+				1F3703552BBE56680076BB76 /* View */,
 				1F3703492BBE56220076BB76 /* ContentView.swift */,
+				1F3703472BBE56220076BB76 /* Churros_AppApp.swift */,
 				1F37034B2BBE56230076BB76 /* Assets.xcassets */,
+				1F37035B2BBE62D60076BB76 /* Shared */,
 				1F37034D2BBE56230076BB76 /* Preview Content */,
+				1F37036A2BBF08490076BB76 /* CartManager.swift */,
 			);
 			path = "Churros App";
 			sourceTree = "<group>";
@@ -65,6 +87,35 @@
 				1F37034E2BBE56230076BB76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F3703552BBE56680076BB76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F3703562BBE56900076BB76 /* Home.swift */,
+				1F3703632BBEE9D30076BB76 /* CollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F3703582BBE58DC0076BB76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F3703592BBE596C0076BB76 /* CategoryModel.swift */,
+				1F37035E2BBE66EA0076BB76 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F37035B2BBE62D60076BB76 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1F37035C2BBE632E0076BB76 /* CategoryListView.swift */,
+				1F3703602BBEE3690076BB76 /* ProductCard.swift */,
+				1F3703652BBEEA020076BB76 /* Header.swift */,
+				1F3703682BBEEFAF0076BB76 /* CartView.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3703692BBEEFAF0076BB76 /* CartView.swift in Sources */,
 				1F37034A2BBE56220076BB76 /* ContentView.swift in Sources */,
+				1F3703662BBEEA020076BB76 /* Header.swift in Sources */,
+				1F37036B2BBF08490076BB76 /* CartManager.swift in Sources */,
+				1F37035F2BBE66EA0076BB76 /* ProductModel.swift in Sources */,
+				1F37035A2BBE596C0076BB76 /* CategoryModel.swift in Sources */,
+				1F3703572BBE56900076BB76 /* Home.swift in Sources */,
 				1F3703482BBE56220076BB76 /* Churros_AppApp.swift in Sources */,
+				1F37035D2BBE632E0076BB76 /* CategoryListView.swift in Sources */,
+				1F3703642BBEE9D30076BB76 /* CollectionView.swift in Sources */,
+				1F3703612BBEE3690076BB76 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
